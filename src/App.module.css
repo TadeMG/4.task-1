@@ -1,0 +1,67 @@
+html {
+	height: 100%;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-content: center;
+	background-color: darkslategray;
+}
+
+.app {
+	background-color: slategrey;
+	height: 550px;
+	width: 500px;
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: column;
+	border-radius: 15px;
+	align-items: center;
+}
+
+.title {
+	color: darkslategray;
+	margin-bottom: 30px;
+}
+
+.registerForm {
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: column;
+	align-items: center;
+}
+
+.inputBlock {
+	height: 120px;
+	text-align: left;
+}
+
+.inputForm {
+	width: 350px;
+	height: 50px;
+	border-radius: 15px;
+	font-size: 20px;
+	padding-left: 10px;
+}
+
+.errorLabel {
+	color: rgb(93, 16, 16);
+}
+
+.registerButton {
+	width: 250px;
+	height: 50px;
+	background-color: darkslategray;
+	border-radius: 15px;
+	font-size: 20px;
+	color: rgb(133, 154, 175);
+}
+
+.registerButton:active {
+	color: rgb(93, 105, 116);
+	background-color: rgb(38, 63, 63);
+}
+
+.registerButton:disabled {
+	color: rgb(93, 105, 116);
+	background-color: rgb(38, 63, 63);
+}
